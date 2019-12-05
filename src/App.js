@@ -7,6 +7,14 @@ class App extends Component {
    <div>
         
         Phone Directory
+        <div className="header">
+          Phone directory
+        </div>
+        <buttton>Add</buttton>
+    <div>
+    <span>Name</span><br />
+    <span>Phone</span>
+    </div>
     </div>
   );
 }
