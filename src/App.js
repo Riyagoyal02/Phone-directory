@@ -1,15 +1,14 @@
 import React, { Component} from 'react';
 
+import Header from './Headr.js';
+
 
 class App extends Component {
-  render(){
+  render() {
   return (
    <div>
         
-        Phone Directory
-        <div className="header">
-          Phone directory
-        </div>
+      <Header/>
         <buttton>Add</buttton>
     <div>
     <span>Name</span><br />
